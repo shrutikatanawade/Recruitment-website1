@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search - Online Recruitment Solution> </title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">HireHub</a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </div>
+  </nav>
+ 
+  <div class="img"></div>
+  <div class="center">
+    <h1>Find Candidates</h1>
+  
+
+    <h2>Search Criteria</h2>
+    <label for="location" style="color: white;">Location</label>
+    <input type="text" id="location" name="location" style="background-color: black; color: white;">
+    
+    
+<label for="jobRole" style="color: white;">Job Role</label>
+    <input type="text" id="jobRole" name="jobRole" style="background-color: black; color: white;">
+    
+
+    
+    <button onclick="searchCandidates()">Search</button>
+  
+    <h2>Search Results</h2>
+    <ul id="candidateList"></ul>
+  
+  
+  <footer>
+    <p>List of fetched candidates for ranking and evaluation</p>
+  </footer>
+  
+ 
+</body>
+</html>
